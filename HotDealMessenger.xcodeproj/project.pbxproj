@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E66781372B4ADA5E00C91926 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66781362B4ADA5E00C91926 /* Colors.xcassets */; };
+		E66781392B4ADA8900C91926 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = E66781382B4ADA8900C91926 /* Extension */; };
 		E66C9EDF2B49B2340046FC5E /* HotDealMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */; };
 		E66C9EE12B49B2340046FC5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EE02B49B2340046FC5E /* ContentView.swift */; };
 		E66C9EE32B49B2350046FC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66C9EE22B49B2350046FC5E /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		E66C9EF02B49B2350046FC5E /* HotDealMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EEF2B49B2350046FC5E /* HotDealMessengerTests.swift */; };
 		E66C9EFA2B49B2350046FC5E /* HotDealMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EF92B49B2350046FC5E /* HotDealMessengerUITests.swift */; };
 		E66C9EFC2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EFB2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift */; };
+		E68447452B4ADF2800BFEF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68447442B4ADF2800BFEF6B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E66781362B4ADA5E00C91926 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E66781382B4ADA8900C91926 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
+		E667813D2B4ADDF500C91926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E66C9EDB2B49B2340046FC5E /* HotDealMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotDealMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerApp.swift; sourceTree = "<group>"; };
 		E66C9EE02B49B2340046FC5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,7 @@
 		E66C9EF52B49B2350046FC5E /* HotDealMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotDealMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66C9EF92B49B2350046FC5E /* HotDealMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerUITests.swift; sourceTree = "<group>"; };
 		E66C9EFB2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E68447442B4ADF2800BFEF6B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E667813A2B4ADB5F00C91926 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E68447442B4ADF2800BFEF6B /* LaunchScreen.storyboard */,
+				E66781362B4ADA5E00C91926 /* Colors.xcassets */,
+				E66C9EE22B49B2350046FC5E /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		E66C9ED22B49B2340046FC5E = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +111,11 @@
 		E66C9EDD2B49B2340046FC5E /* HotDealMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				E667813D2B4ADDF500C91926 /* Info.plist */,
+				E66781382B4ADA8900C91926 /* Extension */,
 				E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */,
 				E66C9EE02B49B2340046FC5E /* ContentView.swift */,
-				E66C9EE22B49B2350046FC5E /* Assets.xcassets */,
+				E667813A2B4ADB5F00C91926 /* Resource */,
 				E66C9EE42B49B2350046FC5E /* Preview Content */,
 			);
 			path = HotDealMessenger;
@@ -231,7 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66781372B4ADA5E00C91926 /* Colors.xcassets in Resources */,
 				E66C9EE62B49B2350046FC5E /* Preview Assets.xcassets in Resources */,
+				E66781392B4ADA8900C91926 /* Extension in Resources */,
+				E68447452B4ADF2800BFEF6B /* LaunchScreen.storyboard in Resources */,
 				E66C9EE32B49B2350046FC5E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,9 +443,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HotDealMessenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotDealMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +472,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"HotDealMessenger/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotDealMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
