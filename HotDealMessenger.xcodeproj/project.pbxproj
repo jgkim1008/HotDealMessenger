@@ -10,13 +10,16 @@
 		E66781372B4ADA5E00C91926 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66781362B4ADA5E00C91926 /* Colors.xcassets */; };
 		E66781392B4ADA8900C91926 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = E66781382B4ADA8900C91926 /* Extension */; };
 		E66C9EDF2B49B2340046FC5E /* HotDealMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */; };
-		E66C9EE12B49B2340046FC5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EE02B49B2340046FC5E /* ContentView.swift */; };
+		E66C9EE12B49B2340046FC5E /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EE02B49B2340046FC5E /* AuthenticatedView.swift */; };
 		E66C9EE32B49B2350046FC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66C9EE22B49B2350046FC5E /* Assets.xcassets */; };
 		E66C9EE62B49B2350046FC5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66C9EE52B49B2350046FC5E /* Preview Assets.xcassets */; };
 		E66C9EF02B49B2350046FC5E /* HotDealMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EEF2B49B2350046FC5E /* HotDealMessengerTests.swift */; };
 		E66C9EFA2B49B2350046FC5E /* HotDealMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EF92B49B2350046FC5E /* HotDealMessengerUITests.swift */; };
 		E66C9EFC2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EFB2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift */; };
 		E68447452B4ADF2800BFEF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68447442B4ADF2800BFEF6B /* LaunchScreen.storyboard */; };
+		E68447482B4AE2BD00BFEF6B /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68447472B4AE2BD00BFEF6B /* DIContainer.swift */; };
+		E684474B2B4AE2EF00BFEF6B /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E684474A2B4AE2EF00BFEF6B /* Services.swift */; };
+		E684474F2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E684474E2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,7 @@
 		E667813D2B4ADDF500C91926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E66C9EDB2B49B2340046FC5E /* HotDealMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotDealMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerApp.swift; sourceTree = "<group>"; };
-		E66C9EE02B49B2340046FC5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E66C9EE02B49B2340046FC5E /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
 		E66C9EE22B49B2350046FC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E66C9EE52B49B2350046FC5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E66C9EEB2B49B2350046FC5E /* HotDealMessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotDealMessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,9 @@
 		E66C9EF92B49B2350046FC5E /* HotDealMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerUITests.swift; sourceTree = "<group>"; };
 		E66C9EFB2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E68447442B4ADF2800BFEF6B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E68447472B4AE2BD00BFEF6B /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		E684474A2B4AE2EF00BFEF6B /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E684474E2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +117,12 @@
 		E66C9EDD2B49B2340046FC5E /* HotDealMessenger */ = {
 			isa = PBXGroup;
 			children = (
-				E667813D2B4ADDF500C91926 /* Info.plist */,
-				E66781382B4ADA8900C91926 /* Extension */,
 				E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */,
-				E66C9EE02B49B2340046FC5E /* ContentView.swift */,
+				E667813D2B4ADDF500C91926 /* Info.plist */,
+				E68447462B4AE2AC00BFEF6B /* General */,
+				E684474C2B4AE46A00BFEF6B /* View */,
+				E68447492B4AE2D900BFEF6B /* Service */,
+				E66781382B4ADA8900C91926 /* Extension */,
 				E667813A2B4ADB5F00C91926 /* Resource */,
 				E66C9EE42B49B2350046FC5E /* Preview Content */,
 			);
@@ -144,6 +152,39 @@
 				E66C9EFB2B49B2350046FC5E /* HotDealMessengerUITestsLaunchTests.swift */,
 			);
 			path = HotDealMessengerUITests;
+			sourceTree = "<group>";
+		};
+		E68447462B4AE2AC00BFEF6B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E68447472B4AE2BD00BFEF6B /* DIContainer.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		E68447492B4AE2D900BFEF6B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E684474A2B4AE2EF00BFEF6B /* Services.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E684474C2B4AE46A00BFEF6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E684474D2B4AE47A00BFEF6B /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E684474D2B4AE47A00BFEF6B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E66C9EE02B49B2340046FC5E /* AuthenticatedView.swift */,
+				E684474E2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +320,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E66C9EE12B49B2340046FC5E /* ContentView.swift in Sources */,
+				E66C9EE12B49B2340046FC5E /* AuthenticatedView.swift in Sources */,
+				E684474F2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift in Sources */,
+				E684474B2B4AE2EF00BFEF6B /* Services.swift in Sources */,
+				E68447482B4AE2BD00BFEF6B /* DIContainer.swift in Sources */,
 				E66C9EDF2B49B2340046FC5E /* HotDealMessengerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
