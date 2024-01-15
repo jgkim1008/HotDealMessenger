@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E629D5B52B558132006766BB /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D5B42B558132006766BB /* Color+Extension.swift */; };
+		E629D5B72B55835D006766BB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D5B62B55835D006766BB /* LoginView.swift */; };
+		E629D5B92B5583E9006766BB /* LoginButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E629D5B82B5583E9006766BB /* LoginButtonStyle.swift */; };
 		E66781372B4ADA5E00C91926 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66781362B4ADA5E00C91926 /* Colors.xcassets */; };
-		E66781392B4ADA8900C91926 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = E66781382B4ADA8900C91926 /* Extension */; };
 		E66C9EDF2B49B2340046FC5E /* HotDealMessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */; };
 		E66C9EE12B49B2340046FC5E /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66C9EE02B49B2340046FC5E /* AuthenticatedView.swift */; };
 		E66C9EE32B49B2350046FC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E66C9EE22B49B2350046FC5E /* Assets.xcassets */; };
@@ -46,8 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E629D5B42B558132006766BB /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		E629D5B62B55835D006766BB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E629D5B82B5583E9006766BB /* LoginButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonStyle.swift; sourceTree = "<group>"; };
 		E66781362B4ADA5E00C91926 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		E66781382B4ADA8900C91926 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
 		E667813D2B4ADDF500C91926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E66C9EDB2B49B2340046FC5E /* HotDealMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotDealMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E66C9EDE2B49B2340046FC5E /* HotDealMessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotDealMessengerApp.swift; sourceTree = "<group>"; };
@@ -96,6 +100,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E629D5B32B558127006766BB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E629D5B42B558132006766BB /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		E667813A2B4ADB5F00C91926 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +148,7 @@
 				E68447462B4AE2AC00BFEF6B /* General */,
 				E684474C2B4AE46A00BFEF6B /* View */,
 				E68447492B4AE2D900BFEF6B /* Service */,
-				E66781382B4ADA8900C91926 /* Extension */,
+				E629D5B32B558127006766BB /* Extension */,
 				E667813A2B4ADB5F00C91926 /* Resource */,
 				E66C9EE42B49B2350046FC5E /* Preview Content */,
 			);
@@ -208,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				E6DDA37A2B55675A0068F5AF /* LoginIntroView.swift */,
+				E629D5B62B55835D006766BB /* LoginView.swift */,
+				E629D5B82B5583E9006766BB /* LoginButtonStyle.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -332,7 +346,6 @@
 			files = (
 				E66781372B4ADA5E00C91926 /* Colors.xcassets in Resources */,
 				E66C9EE62B49B2350046FC5E /* Preview Assets.xcassets in Resources */,
-				E66781392B4ADA8900C91926 /* Extension in Resources */,
 				E68447452B4ADF2800BFEF6B /* LaunchScreen.storyboard in Resources */,
 				E66C9EE32B49B2350046FC5E /* Assets.xcassets in Resources */,
 				E6DDA3702B55622E0068F5AF /* GoogleService-Info.plist in Resources */,
@@ -361,12 +374,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6DDA3722B5562520068F5AF /* AppDelegate.swift in Sources */,
+				E629D5B52B558132006766BB /* Color+Extension.swift in Sources */,
 				E6DDA3772B5564E50068F5AF /* AuthentificationService.swift in Sources */,
 				E6DDA37D2B5567660068F5AF /* MainTabView.swift in Sources */,
 				E66C9EE12B49B2340046FC5E /* AuthenticatedView.swift in Sources */,
 				E684474F2B4AE4AE00BFEF6B /* AuthenticationViewModel.swift in Sources */,
 				E684474B2B4AE2EF00BFEF6B /* Services.swift in Sources */,
+				E629D5B92B5583E9006766BB /* LoginButtonStyle.swift in Sources */,
 				E68447482B4AE2BD00BFEF6B /* DIContainer.swift in Sources */,
+				E629D5B72B55835D006766BB /* LoginView.swift in Sources */,
 				E66C9EDF2B49B2340046FC5E /* HotDealMessengerApp.swift in Sources */,
 				E6DDA37B2B55675A0068F5AF /* LoginIntroView.swift in Sources */,
 			);
@@ -456,7 +472,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -511,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -537,6 +553,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,6 +583,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
