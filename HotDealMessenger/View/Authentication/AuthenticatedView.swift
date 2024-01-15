@@ -11,13 +11,19 @@ struct AuthenticatedView: View {
     @StateObject var authViewModel: AuthenticationViewModel
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        switch authViewModel.authenticatedState {
+        case .unauthenticated:
+            //TODO: loginView
+            LoginIntroView()
+        case .authenticated:
+            MainTabView()
+            //TODO: mainView
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AuthenticatedView(authViewModel: .init())
+        AuthenticatedView(authViewModel: .init(container: .init(services: StubService())))
     }
 }
